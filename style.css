@@ -1,0 +1,287 @@
+.nav-links{
+    text-decoration: none;
+}
+
+.navbar-nav > li > a:hover{
+    text-decoration: underline;
+}
+
+.hero-section{
+    background-image: url(./images/hero-img.jpg);
+    background-size: cover;
+    height: 62rem;	
+}
+
+.form-details{
+    width: 350px !important;
+    height: 500px;
+    background-color: #fff;
+}
+
+.form-box{
+    width: 18rem;
+    height: 3.5rem;
+    border: 1px solid;
+    padding-left: 10px;
+}
+
+.form-box2{
+    width: 18rem;
+    height: 3.5rem;
+    border: 1px solid;
+    padding: 10px;
+} 
+
+.testimonial-section{
+    background-color: #f9fafa
+}
+
+.testimonial-img{
+    width: 8rem;
+    border-radius: 50%;
+}
+
+.program-section{
+    background-color: #f9fafa;
+}
+
+.heading:after{
+    width: 50px;
+    height: 5px;
+    background-color: #007bff;
+    display: block;
+    margin: auto;
+    margin-top: 1.5rem;
+    content: "";
+}
+
+.facility-section{
+    background-color: #f9fafa;
+}
+
+.facility-details{
+    width: 350px !important;
+    height: 600px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 10px 5px 15px #ccc;
+    box-sizing: border-box;
+}
+
+.what-to-learn-section{
+    background-color: #f9fafa;
+}
+
+.btn-size{
+    width: 20rem !important;
+}
+
+.button{
+    background-color: white;
+    border-radius: 5px !important;
+    padding: 5px;
+    width: 13rem;
+    height: 3.3rem;
+    border: 1px solid blue;
+}
+
+.button:hover{
+    background-color: #002e63;
+    color: #fff !important;
+}
+
+.about-details1{
+    width: 350px !important;
+    height: 58rem;
+    background-color: #fff;
+    box-sizing: border-box;
+    margin: auto;
+}
+
+.about-details2{
+    width: 350px !important;
+    height: 49rem;
+    background-color: red;
+    box-sizing: border-box;
+    margin: auto;
+}
+
+.footer-section{
+    background-color: black;
+}
+
+.footer-content{
+    flex-direction: column-reverse;
+}
+
+.footer-form{
+    width: 20rem;
+    height: 3.5rem;
+    border-radius: 5px;
+}
+
+.footer-icon{
+    width: 2rem;
+}
+
+.logo{
+    width: 2rem;
+}
+
+
+
+
+
+@media (min-width: 575px) {
+    .hero-section{
+        height: 60rem;   
+    }
+
+    .form-details{
+        width: 520px !important;
+        height: 450px;
+    }
+
+    .form-box{
+        width: 11.6rem;
+    }
+
+    .form-box2{
+        width: 26.2rem;
+    }
+
+    .facility-details{
+        width: 520px !important;
+        height: 450px;
+    }
+
+    .about-details1{
+        width: 520px !important;
+        height: 52rem;
+    }
+    
+    .about-details2{
+        width: 520px !important;
+        height: 49rem;
+    }
+    
+}
+
+
+@media (min-width: 768px) {
+    .hero-section{
+        height: 38rem;   
+    }
+
+    .form-details{
+        width: 360px !important;
+        height: 470px;
+    }
+
+    .form-box{
+        width: 8.7rem;
+    }
+
+    .form-box2{
+        width: 18.5rem;
+    }
+
+    .facility-details{
+        width: 720px !important;
+        height: 400px;
+    }
+
+    .wtl-text{
+        font-size: 1.6em;
+    }
+
+    .btn-size{
+        width: 15rem !important;
+    }
+
+    .about-details1{
+        width: 350px !important;
+        height: 60rem;
+    }
+    
+    .about-details2{
+        width: 350px !important;
+        height: 49rem;
+    }
+
+    .footer-content{
+        flex-direction: row;
+    }
+
+    .footer-icon{
+        width: 1.5rem;
+    }
+    
+    .footer-form{
+        width: 15rem;
+    }
+
+}
+
+@media (min-width: 992px) {
+    .hero-section{
+        height: 38rem;   
+    }
+
+    .form-details{
+        width: 470px !important;
+        height: 470px;
+    }
+
+    .form-box{
+        width: 11.2rem;
+    }
+
+    .form-box2{
+        width: 25.9rem;
+    }
+
+    .facility-details{
+        width: 500px !important;
+        height: 450px;
+        position: absolute;
+        left: 47rem;
+        bottom: 10rem;
+        top: 286rem;
+    }
+
+    
+    .blue-box{
+        width: 50rem;
+        margin: auto;
+        border-radius: 5px;
+    }
+
+    .button{
+        width: 20rem;
+        height: 3.3rem;
+    }
+
+    .about-details1{
+        width: 600px !important;
+        height: 53rem;
+    }
+    
+    .about-details2{
+        width: 430px !important;
+        height: 53rem;
+    }
+
+    .footer-form{
+        width: 25rem;
+    }
+    
+    .footer-icon{
+        width: 1.5rem;
+    }
+
+    .btn-size2{
+        width: 25rem !important;
+    }
+    
+}
